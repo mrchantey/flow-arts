@@ -9,6 +9,7 @@ module.exports = {
 	devtool: 'inline-source-map',
 	devServer: {
 		contentBase: outdir,
+		port: 8081
 		// historyApiFallback: true
 	},
 	module: {
